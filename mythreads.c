@@ -3,6 +3,7 @@
  */
 
 #include <setjmp.h>
+<<<<<<< HEAD
 #include <string.h>
 
 #include "aux.h"
@@ -10,10 +11,19 @@
 #include "mythreads.h" 
 
 #define STACKSIZE	65536		// maximum size of thread stack
+=======
+
+#include "aux.h"
+#include "umix.h"
+#include "mythreads.h"
+
+static int MyInitThreadsCalled = 0;	// 1 if MyInitThreads called, else 0
+>>>>>>> 97b8df8770bce2c037f4c57d5b9683f90fc9537c
 
 static struct thread {			// thread table
 	int valid;			// 1 if entry is valid, else 0
 	jmp_buf env;			// current context
+<<<<<<< HEAD
 
 	jmp_buf orig_env;
 	int func_param;
@@ -92,6 +102,11 @@ void positionElemHead(int val){
 }
 
 
+=======
+} thread[MAXTHREADS];
+
+#define STACKSIZE	65536		// maximum size of thread stack
+>>>>>>> 97b8df8770bce2c037f4c57d5b9683f90fc9537c
 
 /*	MyInitThreads () initializes the thread package. Must be the first
  *	function called by any user program that uses the thread package.  
@@ -110,6 +125,7 @@ void MyInitThreads ()
 		thread[i].valid = 0;
 	}
 
+<<<<<<< HEAD
 	queue.head = 0;
 	queue.tail = -1;
 	queue.size = 0;
@@ -128,10 +144,14 @@ void MyInitThreads ()
 		thread[0].valid = 1;			// initialize thread 0
 		put(0);
 	}
+=======
+	thread[0].valid = 1;			// initialize thread 0
+>>>>>>> 97b8df8770bce2c037f4c57d5b9683f90fc9537c
 
 	MyInitThreadsCalled = 1;
 }
 
+<<<<<<< HEAD
 void splitStack(int numstacks){
 	if (numstacks < 2) return;
 	else{
@@ -166,6 +186,8 @@ void splitStack(int numstacks){
 	}
 }
 
+=======
+>>>>>>> 97b8df8770bce2c037f4c57d5b9683f90fc9537c
 /*	MyCreateThread (func, param) creates a new thread to execute
  *	func (param), where func is a function with no return value and
  *	param is an integer parameter.  The new thread does not begin
@@ -180,6 +202,7 @@ int MyCreateThread (func, param)
 		Printf ("CreateThread: Must call InitThreads first\n");
 		Exit ();
 	}
+<<<<<<< HEAD
 	
 	int iter_idx = last_insert_idx;
 	int d;
@@ -210,6 +233,45 @@ int MyCreateThread (func, param)
 
 	return last_insert_idx;
 
+=======
+
+	if (setjmp (thread[0].env) == 0) {	// save context of thread 0
+
+		/* The new thread will need stack space.  Here we use the
+		 * following trick: the new thread simply uses the current
+		 * stack, and so there is no need to allocate space.  However,
+		 * to ensure that thread 0's stack may grow and (hopefully)
+		 * not bump into thread 1's stack, the top of the stack is
+		 * effectively extended automatically by declaring a local
+		 * variable (a large "dummy" array). This array is never
+		 * actually used; to prevent an optimizing compiler from
+		 * removing it, it should be referenced.  
+		 */
+
+		char s[STACKSIZE];	// reserve space for thread 0's stack
+		void (*f)() = func;	// f saves func on top of stack
+		int p = param;		// p saves param on top of stack
+
+		if (((int) &s[STACKSIZE-1]) - ((int) &s[0]) + 1 != STACKSIZE) {
+			Printf ("Stack space reservation failed\n");
+			Exit ();
+		}
+
+		if (setjmp (thread[1].env) == 0) {	// save context of 1
+			longjmp (thread[0].env, 1);	// back to thread 0
+		}
+
+		/* here when thread 1 is scheduled for the first time */
+
+		(*f) (p);			// execute func (param)
+
+		MyExitThread ();		// thread 1 is done - exit
+	}
+
+	thread[1].valid = 1;	// mark the entry for the new thread valid
+
+	return (1);		// done, return new thread ID
+>>>>>>> 97b8df8770bce2c037f4c57d5b9683f90fc9537c
 }
 
 /*	MyYieldThread (t) causes the running thread, call it T, to yield to
@@ -224,7 +286,10 @@ int MyCreateThread (func, param)
 int MyYieldThread (t)
 	int t;				// thread being yielded to
 {
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 97b8df8770bce2c037f4c57d5b9683f90fc9537c
 	if (! MyInitThreadsCalled) {
 		Printf ("YieldThread: Must call InitThreads first\n");
 		Exit ();
@@ -238,6 +303,7 @@ int MyYieldThread (t)
 		Printf ("YieldThread: Thread %d does not exist\n", t);
 		return (-1);
 	}
+<<<<<<< HEAD
 	retval = MyGetThread();
 	
 	//if there is only 1 thread, yield to the same thread
@@ -256,6 +322,12 @@ int MyYieldThread (t)
     }
     
     return retval;
+=======
+
+        if (setjmp (thread[1-t].env) == 0) {
+                longjmp (thread[t].env, 1);
+        }
+>>>>>>> 97b8df8770bce2c037f4c57d5b9683f90fc9537c
 }
 
 /*	MyGetThread () returns ID of currently running thread.  
@@ -267,7 +339,10 @@ int MyGetThread ()
 		Printf ("GetThread: Must call InitThreads first\n");
 		Exit ();
 	}
+<<<<<<< HEAD
 	return thread_idx;
+=======
+>>>>>>> 97b8df8770bce2c037f4c57d5b9683f90fc9537c
 
 }
 
@@ -283,11 +358,14 @@ void MySchedThread ()
 		Printf ("SchedThread: Must call InitThreads first\n");
 		Exit ();
 	}
+<<<<<<< HEAD
 	if (queue.size == 0) Exit();
 	else if (queue.size == 1 || thread[MyGetThread()].valid == 0) 
 		MyYieldThread(queue.queue[queue.head]);
 	else MyYieldThread(getNextOf(queue.head));
 
+=======
+>>>>>>> 97b8df8770bce2c037f4c57d5b9683f90fc9537c
 }
 
 /*	MyExitThread () causes the currently running thread to exit.  
@@ -299,9 +377,12 @@ void MyExitThread ()
 		Printf ("ExitThread: Must call InitThreads first\n");
 		Exit ();
 	}
+<<<<<<< HEAD
 
 	//thread should exit now
 	thread[MyGetThread()].valid = 0;
 	get();
 	MySchedThread();
+=======
+>>>>>>> 97b8df8770bce2c037f4c57d5b9683f90fc9537c
 }

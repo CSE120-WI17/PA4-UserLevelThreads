@@ -1,1 +1,9 @@
-/home/solaris/ieng9/cs120w/public/umix/pa4/aux.h
+/* Copyright 1989-2017, Joseph Pasquale, University of California, San Diego
+ *
+ *	Auxiliary routine interfaces
+ */
+
+void Printf (char *fmt, ...);
+void DPrintf (char *fmt, ...);
+void SlowPrintf (int n, char *fmt, ...);
+int Delay (int t);
