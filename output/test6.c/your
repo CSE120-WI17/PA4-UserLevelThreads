@@ -1,0 +1,68 @@
+
+Created thread: 1
+T1: 0 cubed = 0
+Created thread: 2, will yield to 9
+Created thread: 3, will yield to 8
+Created thread: 4, will yield to 7
+Created thread: 5, will yield to 6
+Created thread: 6, will yield to 5
+Created thread: 7, will yield to 4
+Created thread: 8, will yield to 3
+Created thread: 9, will yield to 2
+Created thread: 1, will yield to 1
+T2: 0 squared = 0
+T9: 0 squared = 0
+T2: 1 squared = 1
+T9: 1 squared = 1
+T2: 2 squared = 4
+T9: 2 squared = 4
+T2: 3 squared = 9
+Calling schedThread now
+T3: 0 squared = 0
+T8: 0 squared = 0
+T3: 1 squared = 1
+T8: 1 squared = 1
+T3: 2 squared = 4
+T8: 2 squared = 4
+T3: 3 squared = 9
+Calling schedThread now
+T4: 0 squared = 0
+T7: 0 squared = 0
+T4: 1 squared = 1
+T7: 1 squared = 1
+T4: 2 squared = 4
+T7: 2 squared = 4
+T4: 3 squared = 9
+Calling schedThread now
+T5: 0 squared = 0
+T6: 0 squared = 0
+T5: 1 squared = 1
+T6: 1 squared = 1
+T5: 2 squared = 4
+T6: 2 squared = 4
+T5: 3 squared = 9
+Calling schedThread now
+T1: 0 squared = 0
+T1: 1 squared = 1
+T1: 2 squared = 4
+T1: 3 squared = 9
+Calling schedThread now
+T9: 3 squared = 9
+Calling schedThread now
+T2: 4 squared = 16
+T9: 4 squared = 16
+T8: 3 squared = 9
+Calling schedThread now
+T3: 4 squared = 16
+T8: 4 squared = 16
+T7: 3 squared = 9
+Calling schedThread now
+T4: 4 squared = 16
+T7: 4 squared = 16
+T6: 3 squared = 9
+Calling schedThread now
+T5: 4 squared = 16
+T6: 4 squared = 16
+T1: 4 squared = 16
+
+System exiting (normal)

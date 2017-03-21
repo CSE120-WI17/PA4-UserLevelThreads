@@ -1,0 +1,67 @@
+#!/bin/sh
+
+TEST_DIR='tests'
+OUTPUT_DIR='output'
+
+TMP_MAKEFILE="$(mktemp)"
+TMP_SOLNFILE="test.sh.c"
+TMP_SEDFILE="$(mktemp)"
+C_RESET="$(tput sgr0)"
+C_FG_GREEN="$(tput setaf 2)"
+C_FG_RED="$(tput setaf 1)"
+
+# Runs a pa4 program using the first argument as the main file
+run_with() {
+  make clean >/dev/null
+  sed "s|pa4c\.c|$1|g" Makefile > "$TMP_MAKEFILE"
+  make -f "$TMP_MAKEFILE" pa4c >/dev/null
+  ./pa4c
+}
+
+# Find all test files
+passed_tests=0
+total_tests=0
+for f in $TEST_DIR/*; do
+  name="$(basename "$f")"
+  printf "$name: "
+  ((total_tests++))
+
+  output="$OUTPUT_DIR/$name"
+  mkdir -p "$output"
+
+  # Get ref output
+  printf "Running ref... "
+  sed 's|My\([_A-Za-z0-9]*\)|\1|g' "$f" > "$TMP_SOLNFILE"
+  run_with "$TMP_SOLNFILE" > "$output/ref" 2>/dev/null
+  soln_compiled=$?
+  sed '1d' "$output/ref" > "$TMP_SEDFILE" && mv "$TMP_SEDFILE" "$output/ref"
+
+  # Get your output
+  printf "Running yours... "
+  cp "$f" "$TMP_SOLNFILE"
+  run_with "$TMP_SOLNFILE" > "$output/your" 2>/dev/null
+  your_compiled=$?
+  sed '1d' "$output/your" > "$TMP_SEDFILE" && mv "$TMP_SEDFILE" "$output/your"
+
+  # Check compilation
+  if [ "$soln_compiled" -ne 0 -o "$your_compiled" -ne 0 ]; then
+      printf "${C_FG_RED}COULD NOT COMPILE${C_RESET}\n"
+  else
+    # Compare outputs
+    if diff "$output/ref" "$output/your" >/dev/null; then
+      printf "${C_FG_GREEN}PASS${C_RESET}\n"
+      ((passed_tests++))
+    else
+      printf "${C_FG_RED}FAIL${C_RESET}\n"
+    fi
+  fi
+done
+
+[ "$passed_tests" -eq "$total_tests" ] &&
+  printf "$C_FG_GREEN" ||
+  printf "$C_FG_RED"
+
+printf "Total Results: $passed_tests/$total_tests passed${C_RESET}\n"
+
+rm "$TMP_MAKEFILE" "$TMP_SOLNFILE"
+make clean >/dev/null

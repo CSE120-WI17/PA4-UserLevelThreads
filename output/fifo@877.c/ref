@@ -1,0 +1,21 @@
+
+Spawning thread 1
+Spawning thread 2
+Spawning thread 3
+Spawning thread 4
+Spawning thread 5
+Spawning thread 6
+Spawning thread 7
+Spawning thread 8
+Spawning thread 9
+I am thread: 1, my argument is: 1
+I am thread: 2, my argument is: 2
+I am thread: 3, my argument is: 3
+I am thread: 4, my argument is: 4
+I am thread: 5, my argument is: 5
+I am thread: 6, my argument is: 6
+I am thread: 7, my argument is: 7
+I am thread: 8, my argument is: 8
+I am thread: 9, my argument is: 9
+
+System exiting (normal)

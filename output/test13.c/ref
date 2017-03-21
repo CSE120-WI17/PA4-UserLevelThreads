@@ -1,0 +1,13 @@
+
+Thread 0 yielding to Thread 1
+Thread 1 yielding to Thread 1
+Thread 1 got control from Thread 1
+Thread 0 got control from Thread 1
+Thread 0 yielding to Thread 2
+Thread 2 yielding to Thread 3
+Thread 3 yielding to Thread 0
+Thread 0 got control from Thread 3
+Thread 2 got control from Thread 0
+Thread 3 got control from Thread 2
+
+System exiting (normal)

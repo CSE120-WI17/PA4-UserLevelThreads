@@ -1,0 +1,27 @@
+
+Spawning thread 1
+Spawning thread 2
+Spawning thread 3
+Spawning thread 4
+Spawning thread 5
+Spawning thread 6
+Spawning thread 7
+Spawning thread 8
+1: spawnPrint(1) -> 3
+2: spawnPrint(2) -> 6
+3: spawnPrint(3) -> 9
+4: spawnPrint(4) -> 12
+5: spawnPrint(5) -> 15
+6: spawnPrint(6) -> 18
+7: spawnPrint(7) -> 21
+8: spawnPrint(8) -> 24
+9: printName(2) -> 4
+0: printName(3) -> 6
+1: printName(4) -> 8
+2: printName(5) -> 10
+3: printName(6) -> 12
+4: printName(7) -> 14
+5: printName(8) -> 16
+6: printName(9) -> 18
+
+System exiting (normal)

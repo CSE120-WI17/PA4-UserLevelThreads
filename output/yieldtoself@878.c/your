@@ -1,0 +1,11 @@
+
+Spawning thread 1
+Spawning thread 2
+I am thread: 1, my argument is: 1
+I am thread: 1, my argument is: 1
+I am thread: 1, my argument is: 1
+I am thread: 2, my argument is: 2
+I am thread: 2, my argument is: 2
+I am thread: 2, my argument is: 2
+
+System exiting (normal)

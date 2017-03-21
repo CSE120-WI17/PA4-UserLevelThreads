@@ -1,0 +1,46 @@
+
+Spawning thread 1 as iterfour
+Spawning thread 2 as iterone
+Spawning thread 3 as iterfour
+Spawning thread 4 as iterone
+Spawning thread 5 as iterfour
+Spawning thread 6 as iterone
+Spawning thread 7 as iterfour
+Spawning thread 8 as iterone
+Spawning thread 9 as iterfour
+I am an iterfour thread: 1, my argument is: 1
+I am an iterone thread: 2, my argument is: 2
+I am an iterfour thread: 3, my argument is: 3
+I am an iterone thread: 4, my argument is: 4
+I am an iterfour thread: 5, my argument is: 5
+I am an iterone thread: 6, my argument is: 6
+I am an iterfour thread: 7, my argument is: 7
+I am an iterone thread: 8, my argument is: 8
+I am an iterfour thread: 9, my argument is: 9
+I am an iterfour thread: 1, my argument is: 1
+I am an iterfour thread: 3, my argument is: 3
+I am an iterfour thread: 5, my argument is: 5
+I am an iterfour thread: 7, my argument is: 7
+I am an iterfour thread: 9, my argument is: 9
+Spawning new iterone
+Spawning new iterone
+Spawning new iterone
+Spawning new iterone
+Spawning new iterone
+I am an iterone thread: 0, my argument is: 1
+I am an iterfour thread: 1, my argument is: 1
+I am an iterone thread: 2, my argument is: 3
+I am an iterfour thread: 3, my argument is: 3
+I am an iterone thread: 4, my argument is: 5
+I am an iterfour thread: 5, my argument is: 5
+I am an iterone thread: 6, my argument is: 7
+I am an iterfour thread: 7, my argument is: 7
+I am an iterone thread: 8, my argument is: 9
+I am an iterfour thread: 9, my argument is: 9
+I am an iterfour thread: 1, my argument is: 1
+I am an iterfour thread: 3, my argument is: 3
+I am an iterfour thread: 5, my argument is: 5
+I am an iterfour thread: 7, my argument is: 7
+I am an iterfour thread: 9, my argument is: 9
+
+System exiting (normal)

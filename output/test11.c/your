@@ -1,0 +1,13 @@
+
+T1: 0 squared = 0
+T0: square = 0
+T1: 1 squared = 1
+T0: square = 1
+T1: 2 squared = 4
+T0: square = 4
+T1: 3 squared = 9
+T0: square = 9
+T1: 4 squared = 16
+T0: square = 16
+
+System exiting (normal)

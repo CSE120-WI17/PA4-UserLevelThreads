@@ -1,0 +1,28 @@
+
+0: [0] yieldTo(3) -> -5
+    Yielding: 0 -> 3
+3: [0] yieldTo(4) -> 8
+    Yielding: 3 -> 4
+4: [0] yieldTo(2) -> 4
+    Yielding: 4 -> 2
+2: [0] yieldTo(0) -> 0
+    Yielding: 2 -> 0
+0: [1] yieldTo(3) -> -5
+    Scheding: 0 -> ?
+1: [0] yieldTo(1) -> 2
+    Yielding: 1 -> 1
+1: [1] yieldTo(1) -> 2
+    Scheding: 1 -> ?
+3: [1] yieldTo(4) -> 8
+    Scheding: 3 -> ?
+4: [1] yieldTo(2) -> 4
+    Scheding: 4 -> ?
+2: [1] yieldTo(0) -> 0
+    Scheding: 2 -> ?
+0: [2] yieldTo(3) -> -5
+1: [2] yieldTo(1) -> 2
+3: [2] yieldTo(4) -> 8
+4: [2] yieldTo(2) -> 4
+2: [2] yieldTo(0) -> 0
+
+System exiting (normal)

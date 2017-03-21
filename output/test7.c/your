@@ -1,0 +1,23 @@
+
+j: 9
+9 Helper Yield to: 8
+8 Helper Yield to: 7
+7 Helper Yield to: 6
+6 Helper Yield to: 5
+5 Helper Yield to: 4
+4 Helper Yield to: 3
+3 Helper Yield to: 2
+2 Helper Yield to: 1
+1 Helper Exit -1
+l: 1
+1 Helper Exit -1
+9 Ret: 1
+8 Ret: 9
+7 Ret: 8
+6 Ret: 7
+5 Ret: 6
+4 Ret: 5
+3 Ret: 4
+2 Ret: 3
+
+System exiting (normal)

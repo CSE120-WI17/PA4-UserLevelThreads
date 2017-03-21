@@ -1,0 +1,1809 @@
+
+creating 1
+creating 2
+Yield Return 0
+T0: square = 0, cube = 0
+Yield Return 0
+T0: square = 0, cube = 0
+Yield Return 0
+T0: square = 0, cube = 0
+Yield Return 0
+T0: square = 0, cube = 0
+Yield Return 0
+T0: square = 0, cube = 0
+Yield Return 0
+T0: square = 0, cube = 0
+Yield Return 0
+T0: square = 0, cube = 0
+Yield Return 0
+T0: square = 0, cube = 0
+Yield Return 0
+T0: square = 0, cube = 0
+Yield Return 0
+T0: square = 0, cube = 0
+Yield Return 0
+T0: square = 0, cube = 0
+Yield Return 0
+T0: square = 0, cube = 0
+Yield Return 0
+T0: square = 0, cube = 0
+Yield Return 0
+T0: square = 0, cube = 0
+Yield Return 0
+T0: square = 0, cube = 0
+Yield Return 0
+T0: square = 0, cube = 0
+Yield Return 0
+T0: square = 0, cube = 0
+Yield Return 0
+T0: square = 0, cube = 0
+Yield Return 0
+T0: square = 0, cube = 0
+Yield Return 0
+T0: square = 0, cube = 0
+T1: 0 squared = 0
+YieldThread: Thread 0 does not exist
+Yield Return -1
+creating 3
+T1: 1 squared = 1
+YieldThread: Thread 0 does not exist
+Yield Return -1
+creating 4
+T1: 2 squared = 4
+YieldThread: Thread 0 does not exist
+Yield Return -1
+creating 5
+T1: 3 squared = 9
+YieldThread: Thread 0 does not exist
+Yield Return -1
+creating 6
+T1: 4 squared = 16
+YieldThread: Thread 0 does not exist
+Yield Return -1
+creating 7
+T1: 5 squared = 25
+YieldThread: Thread 0 does not exist
+Yield Return -1
+creating 8
+T1: 6 squared = 36
+YieldThread: Thread 0 does not exist
+Yield Return -1
+creating 9
+T1: 7 squared = 49
+YieldThread: Thread 0 does not exist
+Yield Return -1
+creating 0
+T1: 8 squared = 64
+T0: 0 squared_again = 0
+T8: 0 squared_again = 0
+T6: 0 squared_again = 0
+T4: 0 squared_again = 0
+T2: 0 cubed = 0
+Print Cubes: thread 2 yields to 1 
+Yield Return 2
+creating -1
+T1: 9 squared = 81
+Yield Return 1
+T0: 1 squared_again = 1
+Yield Return 0
+T8: 1 squared_again = 1
+Yield Return 8
+T6: 1 squared_again = 1
+Yield Return 6
+T4: 1 squared_again = 1
+Yield Return 4
+creating -1
+T2: 1 cubed = 1
+Print Cubes: thread 2 yields to 1 
+Yield Return 2
+creating -1
+T1: 10 squared = 100
+Yield Return 1
+T0: 2 squared_again = 4
+Yield Return 0
+T8: 2 squared_again = 4
+Yield Return 8
+T6: 2 squared_again = 4
+Yield Return 6
+T4: 2 squared_again = 4
+Yield Return 4
+creating -1
+T2: 2 cubed = 8
+Print Cubes: thread 2 yields to 1 
+Yield Return 2
+creating -1
+T1: 11 squared = 121
+Yield Return 1
+T0: 3 squared_again = 9
+Yield Return 0
+T8: 3 squared_again = 9
+Yield Return 8
+T6: 3 squared_again = 9
+Yield Return 6
+T4: 3 squared_again = 9
+Yield Return 4
+creating -1
+T2: 3 cubed = 27
+Print Cubes: thread 2 yields to 1 
+Yield Return 2
+creating -1
+T1: 12 squared = 144
+Yield Return 1
+T0: 4 squared_again = 16
+Yield Return 0
+T8: 4 squared_again = 16
+Yield Return 8
+T6: 4 squared_again = 16
+Yield Return 6
+T4: 4 squared_again = 16
+Yield Return 4
+creating -1
+T2: 4 cubed = 64
+Print Cubes: thread 2 yields to 1 
+Yield Return 2
+creating -1
+T1: 13 squared = 169
+Yield Return 1
+T0: 5 squared_again = 25
+Yield Return 0
+T8: 5 squared_again = 25
+Yield Return 8
+T6: 5 squared_again = 25
+Yield Return 6
+T4: 5 squared_again = 25
+Yield Return 4
+creating -1
+T2: 5 cubed = 125
+Print Cubes: thread 2 yields to 1 
+Yield Return 2
+creating -1
+T1: 14 squared = 196
+Yield Return 1
+T0: 6 squared_again = 36
+Yield Return 0
+T8: 6 squared_again = 36
+Yield Return 8
+T6: 6 squared_again = 36
+Yield Return 6
+T4: 6 squared_again = 36
+Yield Return 4
+creating -1
+T2: 6 cubed = 216
+Print Cubes: thread 2 yields to 1 
+Yield Return 2
+creating -1
+T1: 15 squared = 225
+Yield Return 1
+T0: 7 squared_again = 49
+Yield Return 0
+T8: 7 squared_again = 49
+Yield Return 8
+T6: 7 squared_again = 49
+Yield Return 6
+T4: 7 squared_again = 49
+Yield Return 4
+creating -1
+T2: 7 cubed = 343
+Print Cubes: thread 2 yields to 1 
+Yield Return 2
+creating -1
+T1: 16 squared = 256
+Yield Return 1
+T0: 8 squared_again = 64
+Yield Return 0
+T8: 8 squared_again = 64
+Yield Return 8
+T6: 8 squared_again = 64
+Yield Return 6
+T4: 8 squared_again = 64
+Yield Return 4
+creating -1
+T2: 8 cubed = 512
+Print Cubes: thread 2 yields to 1 
+Yield Return 2
+creating -1
+T1: 17 squared = 289
+Yield Return 1
+T0: 9 squared_again = 81
+Yield Return 0
+T8: 9 squared_again = 81
+Yield Return 8
+T6: 9 squared_again = 81
+Yield Return 6
+T4: 9 squared_again = 81
+Yield Return 4
+creating -1
+T2: 9 cubed = 729
+Print Cubes: thread 2 yields to 1 
+Yield Return 2
+creating -1
+T1: 18 squared = 324
+Yield Return 1
+T0: 10 squared_again = 100
+Yield Return 0
+T8: 10 squared_again = 100
+Yield Return 8
+T6: 10 squared_again = 100
+Yield Return 6
+T4: 10 squared_again = 100
+Yield Return 4
+creating -1
+T2: 10 cubed = 1000
+Print Cubes: thread 2 yields to 1 
+Yield Return 2
+creating -1
+T1: 19 squared = 361
+Yield Return 1
+T0: 11 squared_again = 121
+Yield Return 0
+T8: 11 squared_again = 121
+Yield Return 8
+T6: 11 squared_again = 121
+Yield Return 6
+T4: 11 squared_again = 121
+Yield Return 4
+creating -1
+T2: 11 cubed = 1331
+Print Cubes: thread 2 yields to 1 
+Yield Return 2
+creating -1
+T3: 0 squared_again = 0
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 1 squared_again = 1
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 2 squared_again = 4
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 3 squared_again = 9
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 4 squared_again = 16
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 5 squared_again = 25
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 6 squared_again = 36
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 7 squared_again = 49
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 8 squared_again = 64
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 9 squared_again = 81
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 10 squared_again = 100
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 11 squared_again = 121
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 12 squared_again = 144
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 13 squared_again = 169
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 14 squared_again = 196
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 15 squared_again = 225
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 16 squared_again = 256
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 17 squared_again = 289
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 18 squared_again = 324
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 19 squared_again = 361
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T5: 0 squared_again = 0
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T5: 1 squared_again = 1
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T5: 2 squared_again = 4
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T5: 3 squared_again = 9
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T5: 4 squared_again = 16
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T5: 5 squared_again = 25
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T5: 6 squared_again = 36
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T5: 7 squared_again = 49
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T5: 8 squared_again = 64
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T5: 9 squared_again = 81
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T5: 10 squared_again = 100
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T5: 11 squared_again = 121
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T5: 12 squared_again = 144
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T5: 13 squared_again = 169
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T5: 14 squared_again = 196
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T5: 15 squared_again = 225
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T5: 16 squared_again = 256
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T5: 17 squared_again = 289
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T5: 18 squared_again = 324
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T5: 19 squared_again = 361
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T7: 0 squared_again = 0
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T7: 1 squared_again = 1
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T7: 2 squared_again = 4
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T7: 3 squared_again = 9
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T7: 4 squared_again = 16
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T7: 5 squared_again = 25
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T7: 6 squared_again = 36
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T7: 7 squared_again = 49
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T7: 8 squared_again = 64
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T7: 9 squared_again = 81
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T7: 10 squared_again = 100
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T7: 11 squared_again = 121
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T7: 12 squared_again = 144
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T7: 13 squared_again = 169
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T7: 14 squared_again = 196
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T7: 15 squared_again = 225
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T7: 16 squared_again = 256
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T7: 17 squared_again = 289
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T7: 18 squared_again = 324
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T7: 19 squared_again = 361
+YieldThread: Thread 5 does not exist
+Yield Return -1
+T9: 0 squared_again = 0
+YieldThread: Thread 7 does not exist
+Yield Return -1
+T9: 1 squared_again = 1
+YieldThread: Thread 7 does not exist
+Yield Return -1
+T9: 2 squared_again = 4
+YieldThread: Thread 7 does not exist
+Yield Return -1
+T9: 3 squared_again = 9
+YieldThread: Thread 7 does not exist
+Yield Return -1
+T9: 4 squared_again = 16
+YieldThread: Thread 7 does not exist
+Yield Return -1
+T9: 5 squared_again = 25
+YieldThread: Thread 7 does not exist
+Yield Return -1
+T9: 6 squared_again = 36
+YieldThread: Thread 7 does not exist
+Yield Return -1
+T9: 7 squared_again = 49
+YieldThread: Thread 7 does not exist
+Yield Return -1
+T9: 8 squared_again = 64
+YieldThread: Thread 7 does not exist
+Yield Return -1
+T9: 9 squared_again = 81
+YieldThread: Thread 7 does not exist
+Yield Return -1
+T9: 10 squared_again = 100
+YieldThread: Thread 7 does not exist
+Yield Return -1
+T9: 11 squared_again = 121
+YieldThread: Thread 7 does not exist
+Yield Return -1
+T9: 12 squared_again = 144
+YieldThread: Thread 7 does not exist
+Yield Return -1
+T9: 13 squared_again = 169
+YieldThread: Thread 7 does not exist
+Yield Return -1
+T9: 14 squared_again = 196
+YieldThread: Thread 7 does not exist
+Yield Return -1
+T9: 15 squared_again = 225
+YieldThread: Thread 7 does not exist
+Yield Return -1
+T9: 16 squared_again = 256
+YieldThread: Thread 7 does not exist
+Yield Return -1
+T9: 17 squared_again = 289
+YieldThread: Thread 7 does not exist
+Yield Return -1
+T9: 18 squared_again = 324
+YieldThread: Thread 7 does not exist
+Yield Return -1
+T9: 19 squared_again = 361
+YieldThread: Thread 7 does not exist
+Yield Return -1
+Yield Return 9
+T0: 12 squared_again = 144
+Yield Return 0
+T8: 12 squared_again = 144
+Yield Return 8
+T6: 12 squared_again = 144
+Yield Return 6
+T4: 12 squared_again = 144
+Yield Return 4
+creating 1
+T2: 12 cubed = 1728
+Print Cubes: thread 2 yields to 1 
+T1: 0 squared = 0
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating 3
+T1: 1 squared = 1
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating 5
+T1: 2 squared = 4
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating 7
+T1: 3 squared = 9
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating 9
+T1: 4 squared = 16
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 5 squared = 25
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 6 squared = 36
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 7 squared = 49
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 8 squared = 64
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 9 squared = 81
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 10 squared = 100
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 11 squared = 121
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 12 squared = 144
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 13 squared = 169
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 14 squared = 196
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 15 squared = 225
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 16 squared = 256
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 17 squared = 289
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 18 squared = 324
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 19 squared = 361
+YieldThread: 12 is not a valid thread ID
+Yield Return -1
+creating -1
+Yield Return 1
+T0: 13 squared_again = 169
+Yield Return 0
+T8: 13 squared_again = 169
+Yield Return 8
+T6: 13 squared_again = 169
+Yield Return 6
+T4: 13 squared_again = 169
+Yield Return 4
+creating 1
+T2: 13 cubed = 2197
+Print Cubes: thread 2 yields to 1 
+T1: 0 squared = 0
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 1 squared = 1
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 2 squared = 4
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 3 squared = 9
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 4 squared = 16
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 5 squared = 25
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 6 squared = 36
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 7 squared = 49
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 8 squared = 64
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 9 squared = 81
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 10 squared = 100
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 11 squared = 121
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 12 squared = 144
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 13 squared = 169
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 14 squared = 196
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 15 squared = 225
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 16 squared = 256
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 17 squared = 289
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 18 squared = 324
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 19 squared = 361
+YieldThread: 13 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 0 squared_again = 0
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 1 squared_again = 1
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 2 squared_again = 4
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 3 squared_again = 9
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 4 squared_again = 16
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 5 squared_again = 25
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 6 squared_again = 36
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 7 squared_again = 49
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 8 squared_again = 64
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 9 squared_again = 81
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 10 squared_again = 100
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 11 squared_again = 121
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 12 squared_again = 144
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 13 squared_again = 169
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 14 squared_again = 196
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 15 squared_again = 225
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 16 squared_again = 256
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 17 squared_again = 289
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 18 squared_again = 324
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 19 squared_again = 361
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T5: 0 squared_again = 0
+Yield Return 5
+creating 3
+T2: 14 cubed = 2744
+Print Cubes: thread 2 yields to 1 
+YieldThread: Thread 1 does not exist
+Yield Return -1
+creating 1
+T2: 15 cubed = 3375
+Print Cubes: thread 2 yields to 1 
+T1: 0 squared = 0
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 1 squared = 1
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 2 squared = 4
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 3 squared = 9
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 4 squared = 16
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 5 squared = 25
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 6 squared = 36
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 7 squared = 49
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 8 squared = 64
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 9 squared = 81
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 10 squared = 100
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 11 squared = 121
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 12 squared = 144
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 13 squared = 169
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 14 squared = 196
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 15 squared = 225
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 16 squared = 256
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 17 squared = 289
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 18 squared = 324
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 19 squared = 361
+YieldThread: 15 is not a valid thread ID
+Yield Return -1
+creating -1
+T7: 0 squared_again = 0
+T3: 0 squared = 0
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating 1
+T3: 1 squared = 1
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 2 squared = 4
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 3 squared = 9
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 4 squared = 16
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 5 squared = 25
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 6 squared = 36
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 7 squared = 49
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 8 squared = 64
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 9 squared = 81
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 10 squared = 100
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 11 squared = 121
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 12 squared = 144
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 13 squared = 169
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 14 squared = 196
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 15 squared = 225
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 16 squared = 256
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 17 squared = 289
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 18 squared = 324
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 19 squared = 361
+YieldThread: 14 is not a valid thread ID
+Yield Return -1
+creating -1
+T9: 0 squared_again = 0
+Yield Return 9
+T4: 14 squared_again = 196
+Yield Return 4
+creating 3
+T2: 16 cubed = 4096
+Print Cubes: thread 2 yields to 1 
+T1: 0 squared_again = 0
+Yield Return 1
+T1: 1 squared_again = 1
+Yield Return 1
+T1: 2 squared_again = 4
+Yield Return 1
+T1: 3 squared_again = 9
+Yield Return 1
+T1: 4 squared_again = 16
+Yield Return 1
+T1: 5 squared_again = 25
+Yield Return 1
+T1: 6 squared_again = 36
+Yield Return 1
+T1: 7 squared_again = 49
+Yield Return 1
+T1: 8 squared_again = 64
+Yield Return 1
+T1: 9 squared_again = 81
+Yield Return 1
+T1: 10 squared_again = 100
+Yield Return 1
+T1: 11 squared_again = 121
+Yield Return 1
+T1: 12 squared_again = 144
+Yield Return 1
+T1: 13 squared_again = 169
+Yield Return 1
+T1: 14 squared_again = 196
+Yield Return 1
+T1: 15 squared_again = 225
+Yield Return 1
+T1: 16 squared_again = 256
+Yield Return 1
+T1: 17 squared_again = 289
+Yield Return 1
+T1: 18 squared_again = 324
+Yield Return 1
+T1: 19 squared_again = 361
+Yield Return 1
+Yield Return 1
+T0: 14 squared_again = 196
+Yield Return 0
+T8: 14 squared_again = 196
+Yield Return 8
+T6: 14 squared_again = 196
+Yield Return 6
+T4: 15 squared_again = 225
+Yield Return 4
+creating 1
+T2: 17 cubed = 4913
+Print Cubes: thread 2 yields to 1 
+T1: 0 squared = 0
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 1 squared = 1
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 2 squared = 4
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 3 squared = 9
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 4 squared = 16
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 5 squared = 25
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 6 squared = 36
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 7 squared = 49
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 8 squared = 64
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 9 squared = 81
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 10 squared = 100
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 11 squared = 121
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 12 squared = 144
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 13 squared = 169
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 14 squared = 196
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 15 squared = 225
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 16 squared = 256
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 17 squared = 289
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 18 squared = 324
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 19 squared = 361
+YieldThread: 17 is not a valid thread ID
+Yield Return -1
+creating -1
+Yield Return 1
+T5: 1 squared_again = 1
+Yield Return 5
+creating 1
+T2: 18 cubed = 5832
+Print Cubes: thread 2 yields to 1 
+T1: 0 squared = 0
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 1 squared = 1
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 2 squared = 4
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 3 squared = 9
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 4 squared = 16
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 5 squared = 25
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 6 squared = 36
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 7 squared = 49
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 8 squared = 64
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 9 squared = 81
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 10 squared = 100
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 11 squared = 121
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 12 squared = 144
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 13 squared = 169
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 14 squared = 196
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 15 squared = 225
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 16 squared = 256
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 17 squared = 289
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 18 squared = 324
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 19 squared = 361
+YieldThread: 18 is not a valid thread ID
+Yield Return -1
+creating -1
+Yield Return 1
+T7: 1 squared_again = 1
+T3: 0 squared = 0
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating 1
+T3: 1 squared = 1
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 2 squared = 4
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 3 squared = 9
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 4 squared = 16
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 5 squared = 25
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 6 squared = 36
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 7 squared = 49
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 8 squared = 64
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 9 squared = 81
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 10 squared = 100
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 11 squared = 121
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 12 squared = 144
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 13 squared = 169
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 14 squared = 196
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 15 squared = 225
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 16 squared = 256
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 17 squared = 289
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 18 squared = 324
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 19 squared = 361
+YieldThread: 16 is not a valid thread ID
+Yield Return -1
+creating -1
+Yield Return 3
+T9: 1 squared_again = 1
+Yield Return 9
+T4: 16 squared_again = 256
+Yield Return 4
+creating 3
+T2: 19 cubed = 6859
+Print Cubes: thread 2 yields to 1 
+T1: 0 squared_again = 0
+Yield Return 1
+T1: 1 squared_again = 1
+Yield Return 1
+T1: 2 squared_again = 4
+Yield Return 1
+T1: 3 squared_again = 9
+Yield Return 1
+T1: 4 squared_again = 16
+Yield Return 1
+T1: 5 squared_again = 25
+Yield Return 1
+T1: 6 squared_again = 36
+Yield Return 1
+T1: 7 squared_again = 49
+Yield Return 1
+T1: 8 squared_again = 64
+Yield Return 1
+T1: 9 squared_again = 81
+Yield Return 1
+T1: 10 squared_again = 100
+Yield Return 1
+T1: 11 squared_again = 121
+Yield Return 1
+T1: 12 squared_again = 144
+Yield Return 1
+T1: 13 squared_again = 169
+Yield Return 1
+T1: 14 squared_again = 196
+Yield Return 1
+T1: 15 squared_again = 225
+Yield Return 1
+T1: 16 squared_again = 256
+Yield Return 1
+T1: 17 squared_again = 289
+Yield Return 1
+T1: 18 squared_again = 324
+Yield Return 1
+T1: 19 squared_again = 361
+Yield Return 1
+Yield Return 1
+T0: 15 squared_again = 225
+Yield Return 0
+T8: 15 squared_again = 225
+Yield Return 8
+T6: 15 squared_again = 225
+Yield Return 6
+T4: 17 squared_again = 289
+Yield Return 4
+creating 1
+Yield Return 2
+T5: 2 squared_again = 4
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 3 squared_again = 9
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 4 squared_again = 16
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 5 squared_again = 25
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 6 squared_again = 36
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 7 squared_again = 49
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 8 squared_again = 64
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 9 squared_again = 81
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 10 squared_again = 100
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 11 squared_again = 121
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 12 squared_again = 144
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 13 squared_again = 169
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 14 squared_again = 196
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 15 squared_again = 225
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 16 squared_again = 256
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 17 squared_again = 289
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 18 squared_again = 324
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 19 squared_again = 361
+YieldThread: Thread 2 does not exist
+Yield Return -1
+Yield Return 5
+T7: 2 squared_again = 4
+T3: 0 squared = 0
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating 2
+T3: 1 squared = 1
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating 5
+T3: 2 squared = 4
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 3 squared = 9
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 4 squared = 16
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 5 squared = 25
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 6 squared = 36
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 7 squared = 49
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 8 squared = 64
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 9 squared = 81
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 10 squared = 100
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 11 squared = 121
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 12 squared = 144
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 13 squared = 169
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 14 squared = 196
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 15 squared = 225
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 16 squared = 256
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 17 squared = 289
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 18 squared = 324
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating -1
+T3: 19 squared = 361
+YieldThread: 19 is not a valid thread ID
+Yield Return -1
+creating -1
+Yield Return 3
+T9: 2 squared_again = 4
+Yield Return 9
+T4: 18 squared_again = 324
+T2: 0 squared_again = 0
+T1: 0 squared = 0
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating 3
+T1: 1 squared = 1
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 2 squared = 4
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 3 squared = 9
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 4 squared = 16
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 5 squared = 25
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 6 squared = 36
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 7 squared = 49
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 8 squared = 64
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 9 squared = 81
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 10 squared = 100
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 11 squared = 121
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 12 squared = 144
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 13 squared = 169
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 14 squared = 196
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 15 squared = 225
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 16 squared = 256
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 17 squared = 289
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 18 squared = 324
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating -1
+T1: 19 squared = 361
+YieldThread: 20 is not a valid thread ID
+Yield Return -1
+creating -1
+Yield Return 1
+T0: 16 squared_again = 256
+Yield Return 0
+T8: 16 squared_again = 256
+Yield Return 8
+T6: 16 squared_again = 256
+Yield Return 6
+T4: 19 squared_again = 361
+Yield Return 4
+T2: 1 squared_again = 1
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T2: 2 squared_again = 4
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T2: 3 squared_again = 9
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T2: 4 squared_again = 16
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T2: 5 squared_again = 25
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T2: 6 squared_again = 36
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T2: 7 squared_again = 49
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T2: 8 squared_again = 64
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T2: 9 squared_again = 81
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T2: 10 squared_again = 100
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T2: 11 squared_again = 121
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T2: 12 squared_again = 144
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T2: 13 squared_again = 169
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T2: 14 squared_again = 196
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T2: 15 squared_again = 225
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T2: 16 squared_again = 256
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T2: 17 squared_again = 289
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T2: 18 squared_again = 324
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T2: 19 squared_again = 361
+YieldThread: Thread 1 does not exist
+Yield Return -1
+Yield Return 2
+T7: 3 squared_again = 9
+T3: 0 squared_again = 0
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 1 squared_again = 1
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 2 squared_again = 4
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 3 squared_again = 9
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 4 squared_again = 16
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 5 squared_again = 25
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 6 squared_again = 36
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 7 squared_again = 49
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 8 squared_again = 64
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 9 squared_again = 81
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 10 squared_again = 100
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 11 squared_again = 121
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 12 squared_again = 144
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 13 squared_again = 169
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 14 squared_again = 196
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 15 squared_again = 225
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 16 squared_again = 256
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 17 squared_again = 289
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 18 squared_again = 324
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T3: 19 squared_again = 361
+YieldThread: Thread 1 does not exist
+Yield Return -1
+T5: 0 squared_again = 0
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 1 squared_again = 1
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 2 squared_again = 4
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 3 squared_again = 9
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 4 squared_again = 16
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 5 squared_again = 25
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 6 squared_again = 36
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 7 squared_again = 49
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 8 squared_again = 64
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 9 squared_again = 81
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 10 squared_again = 100
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 11 squared_again = 121
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 12 squared_again = 144
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 13 squared_again = 169
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 14 squared_again = 196
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 15 squared_again = 225
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 16 squared_again = 256
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 17 squared_again = 289
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 18 squared_again = 324
+YieldThread: Thread 2 does not exist
+Yield Return -1
+T5: 19 squared_again = 361
+YieldThread: Thread 2 does not exist
+Yield Return -1
+Yield Return 5
+T9: 3 squared_again = 9
+Yield Return 9
+Yield Return 4
+T0: 17 squared_again = 289
+Yield Return 0
+T8: 17 squared_again = 289
+Yield Return 8
+T6: 17 squared_again = 289
+YieldThread: Thread 4 does not exist
+Yield Return -1
+T6: 18 squared_again = 324
+YieldThread: Thread 4 does not exist
+Yield Return -1
+T6: 19 squared_again = 361
+YieldThread: Thread 4 does not exist
+Yield Return -1
+Yield Return 6
+T7: 4 squared_again = 16
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T7: 5 squared_again = 25
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T7: 6 squared_again = 36
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T7: 7 squared_again = 49
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T7: 8 squared_again = 64
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T7: 9 squared_again = 81
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T7: 10 squared_again = 100
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T7: 11 squared_again = 121
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T7: 12 squared_again = 144
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T7: 13 squared_again = 169
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T7: 14 squared_again = 196
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T7: 15 squared_again = 225
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T7: 16 squared_again = 256
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T7: 17 squared_again = 289
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T7: 18 squared_again = 324
+YieldThread: Thread 3 does not exist
+Yield Return -1
+T7: 19 squared_again = 361
+YieldThread: Thread 3 does not exist
+Yield Return -1
+Yield Return 7
+T9: 4 squared_again = 16
+YieldThread: Thread 4 does not exist
+Yield Return -1
+T9: 5 squared_again = 25
+YieldThread: Thread 4 does not exist
+Yield Return -1
+T9: 6 squared_again = 36
+YieldThread: Thread 4 does not exist
+Yield Return -1
+T9: 7 squared_again = 49
+YieldThread: Thread 4 does not exist
+Yield Return -1
+T9: 8 squared_again = 64
+YieldThread: Thread 4 does not exist
+Yield Return -1
+T9: 9 squared_again = 81
+YieldThread: Thread 4 does not exist
+Yield Return -1
+T9: 10 squared_again = 100
+YieldThread: Thread 4 does not exist
+Yield Return -1
+T9: 11 squared_again = 121
+YieldThread: Thread 4 does not exist
+Yield Return -1
+T9: 12 squared_again = 144
+YieldThread: Thread 4 does not exist
+Yield Return -1
+T9: 13 squared_again = 169
+YieldThread: Thread 4 does not exist
+Yield Return -1
+T9: 14 squared_again = 196
+YieldThread: Thread 4 does not exist
+Yield Return -1
+T9: 15 squared_again = 225
+YieldThread: Thread 4 does not exist
+Yield Return -1
+T9: 16 squared_again = 256
+YieldThread: Thread 4 does not exist
+Yield Return -1
+T9: 17 squared_again = 289
+YieldThread: Thread 4 does not exist
+Yield Return -1
+T9: 18 squared_again = 324
+YieldThread: Thread 4 does not exist
+Yield Return -1
+T9: 19 squared_again = 361
+YieldThread: Thread 4 does not exist
+Yield Return -1
+Yield Return 9
+T0: 18 squared_again = 324
+Yield Return 0
+T8: 18 squared_again = 324
+YieldThread: Thread 6 does not exist
+Yield Return -1
+T8: 19 squared_again = 361
+YieldThread: Thread 6 does not exist
+Yield Return -1
+Yield Return 8
+T0: 19 squared_again = 361
+YieldThread: Thread 8 does not exist
+Yield Return -1
+
+System exiting (normal)

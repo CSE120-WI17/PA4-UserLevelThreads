@@ -1,0 +1,27 @@
+
+Thread 0 dummy var = 10001
+Thread 1 dummy var = 20001
+Thread 2 dummy = 30051
+Thread 2 exiting
+Thread 3 dummy = 30052
+Thread 3 giving up control
+Thread 4 dummy = 30053
+Thread 4 exiting
+Thread 5 dummy = 30054
+Thread 5 giving up control
+Thread 6 dummy = 30055
+Thread 6 exiting
+Thread 7 dummy = 30056
+Thread 7 giving up control
+Thread 8 dummy = 30057
+Thread 8 exiting
+Thread 9 dummy = 30058
+Thread 9 giving up control
+Thread 0 dummy = 30059
+Thread 0 exiting
+Thread 3 is back! Exiting now...
+Thread 5 is back! Exiting now...
+Thread 7 is back! Exiting now...
+Thread 9 is back! Exiting now...
+
+System exiting (normal)

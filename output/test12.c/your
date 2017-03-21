@@ -1,0 +1,19 @@
+
+Thread 1 with param 0
+Thread 2 with param 1
+Thread 3 with param 2
+Thread 4 with param 3
+Thread 5 with param 4
+Thread 6 with param 5
+Thread 7 with param 6
+Thread 8 with param 7
+Thread 9 with param 8
+Thread 1 with param 9
+Thread 2 with param 10
+Thread 3 with param 11
+Thread 4 with param 12
+Thread 5 with param 13
+Thread 6 with param 14
+Thread 0 with param -1
+
+System exiting (normal)
